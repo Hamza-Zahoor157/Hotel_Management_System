@@ -1,0 +1,49 @@
+﻿<header class="fixed top-0 left-0 w-full h-[60px] bg-gray-900 text-white flex justify-between items-center px-6 shadow-lg z-[6000]">
+    <h1 class="text-xl font-bold">Customer Dashboard</h1>
+    <nav class="flex space-x-4">
+        <a href="BookRoom" class="px-4 py-2 rounded-md transition duration-300 bg-gray-700 text-gray-200">Book Room</a>
+        <a href="CancelReservation" class="px-4 py-2 rounded-md transition duration-300 hover:bg-gray-700 hover:text-gray-200">Cancel Reservation</a>
+        <a href="SearchRooms" class="px-4 py-2 rounded-md transition duration-300 hover:bg-gray-700 hover:text-gray-200">Search Rooms</a>
+        <a href="MyReservations" class="px-4 py-2 rounded-md transition duration-300 hover:bg-gray-700 hover:text-gray-200">
+            My Reservations
+        </a>
+    </nav>
+    <a href="/Home/Index" class="px-4 py-2 bg-red-600 rounded-lg transition duration-300 hover:bg-white hover:border-red-700 hover:text-red-800">Logout</a>
+</header>
+
+<div class="flex flex-col flex-grow justify-center items-center w-full h-[521px] relative py-16 mt-[30px]">
+    <div class="absolute w-full h-full bg-cover bg-center" style="background-image: url('/css/bg-image-3.jpg');"></div>
+    <div class="absolute w-full h-full bg-black bg-opacity-40 flex flex-col justify-center items-center text-white p-10 text-center"></div>
+
+    <div class="bg-white p-8 rounded-lg shadow-lg w-[400px] z-50">
+        <h2 class="text-2xl text-gray-900 font-semibold mb-6 text-center">Add Booking Details</h2>
+        <form action="~/Customer/BookRoom" method="post" class="space-y-4">
+            @* <div> *@
+            @*     <label for="CustomerID" class="text-gray-900 block font-medium">Enter Customer ID:</label> *@
+            @*     <input type="text" name="CustomerID" id="CustomerID" class="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:outline-none"> *@
+            @* </div> *@
+
+            <div>
+                <label for="RoomID" class="text-gray-900 block font-medium">Enter Room ID:</label>
+                <input type="number" name="RoomID" id="RoomID" class="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:outline-none">
+            </div>
+            <div>
+                <label for="CheckInDate" class="text-gray-900 block font-medium">Check-In Date: </label>
+                <input type="date" name="CheckInDate" id="CheckInDate" class="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:outline-none" />
+            </div>
+            <div>
+                <label for="CheckOutDate" class=" text-gray-900 block font-medium">Check-Out Date:</label>
+                <input type="date" name="CheckOutDate" id="CheckOutDate" class="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:outline-none" />
+            </div>
+
+            <div class="text-center">
+                <input type="submit" value="Book Room" class="w-full border bg-gray-900 text-white p-3 rounded-lg hover:border border-gray-900 hover:bg-white hover:text-gray-900 transition duration-300 cursor-pointer">
+            </div>
+            
+        </form>
+    </div>
+</div>
+
+<footer class="w-full bg-gray-900 text-white p-4 text-center mt-auto">
+    <p>&copy; 2025 Hotel Management System. All Rights Reserved.</p>
+</footer>

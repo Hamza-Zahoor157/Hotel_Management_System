@@ -1,0 +1,75 @@
+﻿<header class="fixed top-0 w-full h-[60px] bg-gray-900 text-white flex justify-between items-center px-6 py-3 shadow-lg z-50">
+        <h1 class="text-xl font-bold">Admin Dashboard</h1>
+
+        <nav class="flex space-x-4">
+            <a href="AddRoomDetails" class="px-4 py-2 rounded-md transition duration-300 hover:bg-gray-700 hover:text-gray-200">
+                Add Room
+            </a>
+        <a href="RemoveRoomDetails" class="px-4 py-2 rounded-md transition duration-300 hover:bg-gray-700 hover:text-gray-200">
+                Remove Room
+            </a>
+            <a href="UpdateRoomDetails" class="px-4 py-2 rounded-md bg-gray-700 text-gray-200">
+                Update Room
+            </a>
+            <a href="ViewReservationDetails" class="px-4 py-2 rounded-md transition duration-300 hover:bg-gray-700 hover:text-gray-200">
+                View Reservations
+            </a>
+        <a href="Notifications" class="px-4 py-2 rounded-md transition duration-300 hover:bg-gray-700 hover:text-gray-200">
+            Notifications
+        </a>
+        </nav>
+
+        <a href="/Home/Index" class="px-4 py-2 bg-red-600 rounded-lg transition duration-300 hover:bg-white hover:border-red-700 hover:text-red-800">
+            Logout
+        </a>
+ </header>
+
+ <div class="flex flex-col flex-grow justify-center items-center w-full relative py-16">
+        <div class="absolute w-full h-full bg-cover bg-center bg-opacity-50" style="background-image: url('/css/bg-image-4.jpg');"></div>
+        <div class="absolute w-full h-full bg-black bg-opacity-50"></div>
+
+    <div class="relative bg-white p-8 rounded-lg shadow-lg w-[400px] mt-10">
+            <h2 class="text-2xl font-semibold mb-6 text-center">Update Room Details</h2>
+        <form action="~/Admin/UpdateRoomDetails" method="post" class="space-y-4">
+                <div>
+                    <label for="RoomID" class="block font-medium">Enter Room ID:</label>
+                <input type="text" name="RoomID" id="RoomID" class="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:outline-none">
+                </div>
+
+                @* <div> *@
+                @*     <label for="roomid" class="block font-medium">Enter New Room ID:</label> *@
+                @*     <input type="number" name="roomid" id="roomid" class="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:outline-none"> *@
+                @* </div> *@
+
+                <div>
+                    <label for="RoomType" class="block font-medium">Select Room Type:</label>
+                <select name="RoomType" id="RoomType" class="w-full p-2 border-2 border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:outline-none text-[14px]">
+                        <option value="Single">Single</option>
+                        <option value="Deluxe">Deluxe</option>
+                        <option value="Suite">Suite</option>
+                        <option value="Triple">Triple</option>
+                        <option value="Dorm">Dorm</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="Price" class="block font-medium">Enter Room Price:</label>
+                <input type="number" name="Price" id="Price" class="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:outline-none">
+                </div>
+
+            <div>
+                <label for="Availability" class="font-medium">Is the Room Available?</label>
+                <input type="checkbox" name="Availability" id="Availability" class="mr-2">
+            </div>
+
+
+                <div class="text-center">
+                    <input type="submit" value="Update Room Details" class="w-full border bg-gray-900 text-white p-3 rounded-lg hover:border border-gray-900 hover:bg-white hover:text-gray-900 transition duration-300 cursor-pointer">
+                </div>
+            </form>
+        </div>
+ </div>
+
+ <footer class="w-full bg-gray-900 text-white p-4 text-center">
+     <p>&copy; 2025 Hotel Management System. All Rights Reserved.</p>
+ </footer>

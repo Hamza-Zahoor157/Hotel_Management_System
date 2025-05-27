@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Notifications";
+}
+
+<div class="fixed top-0 w-full h-[60px] bg-gray-900 text-white flex justify-between items-center px-6 py-3 shadow-lg z-50">
+    <h1 class="text-xl font-bold">Admin Notifications</h1>
+    <a href="~/Admin/AdminDashboard" class="px-4 py-2 bg-blue-600 rounded-lg transition duration-300 hover:bg-white hover:border-blue-600 hover:text-blue-600">Back to Dashboard</a>
+</div>
+
+<div class="relative w-full h-[calc(100vh-60px)] mt-[60px]">
+    <div class="absolute top-0 left-0 w-full h-full bg-cover bg-center" style="background-image: url('/css/bg-image-2.jpg');"></div>
+    <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40"></div>
+
+    <div class="relative h-full overflow-y-auto p-6">
+        <div id="notifications-container" class="space-y-4">
+        </div>
+    </div>
+</div>
+@section Scripts {
+
+    <script>
+        const connection = new signalR.HubConnectionBuilder().withUrl("/NotificationHub").build();
+
+           connection.on("ReceiveNotification", function (message) {
+               const notificationDiv = document.createElement("div");
+              notificationDiv.className = "p-4 bg-white rounded-lg transition duration-300 hover:shadow-xl transform hover:translate-y-3 hover:translate-x-3";
+               notificationDiv.innerHTML = ` <p class="text-gray-800 font-medium">${message}</p>
+                                             <p class="text-gray-500 text-sm">${new Date().toString()}</p>`;
+
+               const container = document.getElementById("notifications-container");
+               container.insertBefore(notificationDiv, container.firstChild);
+           });
+
+           connection.start().catch(err => console.error(err.toString()));
+    </script>
+}

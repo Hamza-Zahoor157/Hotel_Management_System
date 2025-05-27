@@ -1,0 +1,32 @@
+﻿@page
+@model ConfirmEmailModel
+@{
+    ViewData["Title"] = "Confirm Email";
+}
+
+<div class="w-full h-screen flex">
+    <div class="w-[55%] h-full relative">
+        <img src="/css/bg-image-1.jpg" class="absolute w-full h-full object-cover bg-opacity-50">
+        <div class="absolute w-full h-full bg-black bg-opacity-50 flex flex-col items-center justify-center text-white p-8">
+            <h1 class="text-3xl font-bold text-center">WELCOME TO LUXURY STAYS</h1>
+            <p class="text-lg text-center mt-4">Please confirm your email to complete your registration.</p>
+        </div>
+    </div>
+
+    <div class="w-[45%] h-full bg-white p-12 flex flex-col justify-center items-center">
+        <div class="text-center">
+            <h2 class="text-2xl font-semibold mb-6">Email Confirmation</h2>
+            <p class="text-base mb-4">Thank you for registering with us. Please check your inbox for a confirmation email and click the link to verify your email address.</p>
+
+            <partial name="_StatusMessage" model="Model.StatusMessage" />
+            
+            <div class="mt-6">
+                <a href="/" class="w-1/2 bg-gray-900 text-white p-2 rounded-lg border-2 border-gray-900 hover:bg-white hover:text-gray-900 transition-all duration-300 cursor-pointer text-center inline-block">Go to Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

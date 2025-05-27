@@ -1,0 +1,76 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="w-full h-screen flex">
+    <div class="w-[55%] h-full relative">
+        <img src="/css/bg-image-1.jpg" class="absolute w-full h-full object-cover bg-opacity-50">
+        <div class="absolute w-full h-full bg-black bg-opacity-50 flex flex-col items-center justify-center text-white p-8">
+            <h1 class="text-3xl font-bold text-center">WELCOME TO LUXURY STAYS</h1>
+            <p class="text-lg text-center mt-4">Experience the comfort and elegance of our world-class hotels...</p>
+        </div>
+    </div>
+
+    <div class="w-[45%] h-full bg-white p-12 flex flex-col justify-center relative">
+        <div class="flex flex-col items-center">
+            <div class="w-16 h-16 rounded-full border-2 border-gray-700 flex items-center justify-center">
+                <img width="40" height="40" src="https://img.icons8.com/ios/50/user--v1.png" />
+            </div>
+            <h2 class="text-2xl font-semibold mt-4 mb-6">SignUp Portal</h2>
+        </div>
+
+        <form method="post" id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" class="space-y-4 flex flex-col items-center w-full">
+            <div asp-validation-summary="ModelOnly" class="text-danger text-center" role="alert"></div>
+
+            <div class="w-1/2 mb-3">
+                <input asp-for="Input.Email" placeholder="Enter email" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:outline-none">
+                <span asp-validation-for="Input.Email" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div class="w-1/2 mb-3">
+                <input asp-for="Input.Password" placeholder="Enter password" type="password" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:outline-none">
+                <span asp-validation-for="Input.Password" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div class="w-1/2 mb-3">
+                <input asp-for="Input.ConfirmPassword" placeholder="Confirm password" type="password" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:outline-none">
+                <span asp-validation-for="Input.ConfirmPassword" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div class="w-1/2 mb-3">
+                <input asp-for="Input.FullName" placeholder="Full Name" type="text" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:outline-none">
+                <span asp-validation-for="Input.FullName" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div class="w-1/2 mb-3">
+                <input asp-for="Input.City" placeholder="City" type="text" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:outline-none">
+                <span asp-validation-for="Input.City" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div class="w-1/2 mb-3">
+                <select asp-for="Input.RoleType" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:outline-none">
+                    <option disabled selected value="">Select Role</option>
+                    <option value="Customer">Customer</option>
+                    <option value="Admin">Admin</option>
+                    <option value="Manager">Manager</option>
+                </select>
+                <span asp-validation-for="Input.RoleType" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div class="w-1/2 flex justify-center">
+                <button type="submit" class="w-1/2 bg-gray-900 text-white p-2 rounded-lg border-2 border-gray-900 hover:bg-white hover:text-gray-900 transition-all duration-300 cursor-pointer">
+                    Sign Up
+                </button>
+            </div>
+        </form>
+
+
+        </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+

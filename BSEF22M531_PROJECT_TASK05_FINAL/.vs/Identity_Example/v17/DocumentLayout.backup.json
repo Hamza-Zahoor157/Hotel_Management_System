@@ -1,0 +1,690 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/HMS_DB/True/SqlTable/dbo.Rooms.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\models\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\models\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\admin\\viewreservationdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\admin\\viewreservationdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\customer\\myreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\customer\\myreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\customer\\availablerooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\customer\\availablerooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\models\\intefaces\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\models\\intefaces\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\customer\\customerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\customer\\customerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\customer\\searchrooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\customer\\searchrooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\customer\\cancelreservationresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\customer\\cancelreservationresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\customer\\cancelreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\customer\\cancelreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\customer\\bookroomresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\customer\\bookroomresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\customer\\bookroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\customer\\bookroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\admin\\updateroomresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\admin\\updateroomresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\admin\\updateroomdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\admin\\updateroomdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\admin\\addroomdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\admin\\addroomdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\admin\\removeroomdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\admin\\removeroomdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\admin\\addroomresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\admin\\addroomresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\admin\\notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\admin\\notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\admin\\removeroomresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\admin\\removeroomresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\models\\myappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\models\\myappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\identity_example.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\identity_example.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|c:\\users\\pc\\onedrive\\desktop\\git rep\\se22-nc-scd-project-task5-hamza-157\\bsef22m531_project_task05_final\\identity_example\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FD39FE-6203-4D8C-93F4-D4A68D6CCC2A}|Identity_Example\\Identity_Example.csproj|solutionrelative:identity_example\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.Rooms [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/HMS_DB/True/SqlTable/dbo.Rooms.sql",
+              "ToolTip": "dbo.Rooms [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-27T09:07:55.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Identity_Example\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T10:28:07.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewReservationDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\ViewReservationDetails.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Admin\\ViewReservationDetails.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\ViewReservationDetails.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Admin\\ViewReservationDetails.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T10:22:26.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Models\\Repositories\\RoomRepository.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Models\\Repositories\\RoomRepository.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Models\\Repositories\\RoomRepository.cs",
+              "RelativeToolTip": "Identity_Example\\Models\\Repositories\\RoomRepository.cs",
+              "ViewState": "AgIAAIMAAAAAMjMzMzMbwJIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T19:25:39.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyReservations.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\MyReservations.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Customer\\MyReservations.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\MyReservations.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Customer\\MyReservations.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T10:33:59.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AvailableRooms.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\AvailableRooms.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Customer\\AvailableRooms.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\AvailableRooms.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Customer\\AvailableRooms.cshtml",
+              "ViewState": "AgIAADUAAAAQm5mZmZkuwD4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T10:25:14.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Models\\Intefaces\\IRoomRepository.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Models\\Intefaces\\IRoomRepository.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Models\\Intefaces\\IRoomRepository.cs",
+              "RelativeToolTip": "Identity_Example\\Models\\Intefaces\\IRoomRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T19:20:28.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Identity_Example\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAHUAAABA/P///z8twIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T20:10:54.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\CustomerDashboard.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Customer\\CustomerDashboard.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\CustomerDashboard.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Customer\\CustomerDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T10:34:24.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SearchRooms.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\SearchRooms.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Customer\\SearchRooms.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\SearchRooms.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Customer\\SearchRooms.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T10:35:55.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CancelReservationResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\CancelReservationResult.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Customer\\CancelReservationResult.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\CancelReservationResult.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Customer\\CancelReservationResult.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-17T15:39:12.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CancelReservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\CancelReservation.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Customer\\CancelReservation.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\CancelReservation.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Customer\\CancelReservation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-17T14:52:29.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookRoomResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\BookRoomResult.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Customer\\BookRoomResult.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\BookRoomResult.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Customer\\BookRoomResult.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T09:46:48.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookRoom.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\BookRoom.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Customer\\BookRoom.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Customer\\BookRoom.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Customer\\BookRoom.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T10:35:18.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Models\\Booking.cs",
+              "RelativeToolTip": "Identity_Example\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:19:18.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateRoomDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\UpdateRoomDetails.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Admin\\UpdateRoomDetails.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\UpdateRoomDetails.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Admin\\UpdateRoomDetails.cshtml",
+              "ViewState": "AgIAABkAAACAbmZmZmYGwDwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T16:15:54.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateRoomResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\UpdateRoomResult.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Admin\\UpdateRoomResult.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\UpdateRoomResult.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Admin\\UpdateRoomResult.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T19:33:21.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddRoomDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\AddRoomDetails.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Admin\\AddRoomDetails.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\AddRoomDetails.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Admin\\AddRoomDetails.cshtml",
+              "ViewState": "AgIAACcAAAA0ZGZmZmYkwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T20:19:43.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RemoveRoomDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\RemoveRoomDetails.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Admin\\RemoveRoomDetails.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\RemoveRoomDetails.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Admin\\RemoveRoomDetails.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAABoPSIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T16:15:50.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddRoomResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\AddRoomResult.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Admin\\AddRoomResult.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\AddRoomResult.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Admin\\AddRoomResult.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T20:23:38.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Admin\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Admin\\AdminDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T16:15:39.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Notifications.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\Notifications.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Admin\\Notifications.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\Notifications.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Admin\\Notifications.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T16:16:40.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RemoveRoomResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\RemoveRoomResult.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Admin\\RemoveRoomResult.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Admin\\RemoveRoomResult.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Admin\\RemoveRoomResult.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T19:33:00.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MyAppUser.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Models\\MyAppUser.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Models\\MyAppUser.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Models\\MyAppUser.cs",
+              "RelativeToolTip": "Identity_Example\\Models\\MyAppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T09:36:34.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Identity_Example\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T10:04:25.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Identity_Example\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAJsAAACA+f///38RwIwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:31:46.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Identity_Example\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAHoAAAAAJjMzMzMIwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:57:35.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Identity_Example\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAoAAABgMDMzMzMrwCoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T11:56:28.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Program.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Program.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Program.cs",
+              "RelativeToolTip": "Identity_Example\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:40:47.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Identity_Example\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAACcAAAC0MjMzMzMrwCYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T12:29:30.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Identity_Example\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:58:15.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\appsettings.json",
+              "RelativeDocumentMoniker": "Identity_Example\\appsettings.json",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\appsettings.json",
+              "RelativeToolTip": "Identity_Example\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T10:16:14.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Models\\Room.cs",
+              "RelativeToolTip": "Identity_Example\\Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T19:15:17.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T11:28:30.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ConfirmEmail.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeToolTip": "Identity_Example\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T12:21:12.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RegisterConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeToolTip": "Identity_Example\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T12:21:33.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "Identity_Example\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T12:21:01.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "Identity_Example\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T08:04:15.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Hubs\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "Identity_Example\\Hubs\\NotificationHub.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Hubs\\NotificationHub.cs",
+              "RelativeToolTip": "Identity_Example\\Hubs\\NotificationHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:06:59.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Identity_Example\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T16:10:57.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Identity_Example.csproj",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Identity_Example.csproj",
+              "RelativeDocumentMoniker": "Identity_Example\\Identity_Example.csproj",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Identity_Example.csproj",
+              "RelativeToolTip": "Identity_Example\\Identity_Example.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-12T16:06:30.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "Identity_Example\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\git rep\\se22-nc-scd-project-task5-Hamza-157\\BSEF22M531_PROJECT_TASK05_FINAL\\Identity_Example\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "Identity_Example\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T08:02:01.799Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
